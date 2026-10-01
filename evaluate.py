@@ -54,7 +54,7 @@ def main():
                         "baseline_f1": f_b}).sort_values("llm_f1", ascending=False)
     per.round(4).to_csv(HERE / "results" / "per_category.csv", index=False)
     pd.DataFrame(confusion_matrix(y, l, labels=cats), index=cats, columns=cats).to_csv(HERE / "results" / "confusion_llm.csv")
-    dis = t[l != y][["category", "llm_category", "base", "summary"]].reset_index()
+    dis = t[l != y][["category", "llm_category", "base"]].reset_index()      # ids only: the text stays in data/
     dis.to_csv(HERE / "results" / "disagreements.csv", index=False)
     (HERE / "results" / "evaluation.json").write_text(json.dumps(out, indent=2, default=float) + "\n")
     print(json.dumps(out, indent=2, default=float))

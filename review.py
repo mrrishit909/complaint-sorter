@@ -82,7 +82,7 @@ def main():
     assert set(dis["odi"]) == set(VERDICTS), "review covers exactly the disagreements"
     dis["verdict"] = dis["odi"].map(lambda o: VERDICTS[o][0])
     dis["reason"] = dis["odi"].map(lambda o: VERDICTS[o][1])
-    dis.drop(columns="summary").to_csv(HERE / "results" / "review.csv", index=False)
+    dis.to_csv(HERE / "results" / "review.csv", index=False)
     counts = dis["verdict"].value_counts().to_dict()
     n = 480
     right = n - len(dis)
