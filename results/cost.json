@@ -4,5 +4,11 @@
     "in_tokens": 78686,
     "out_tokens": 10246,
     "calls": 120
+  },
+  "test": {
+    "usd": 0.42898425,
+    "in_tokens": 318257,
+    "out_tokens": 42287,
+    "calls": 480
   }
 }

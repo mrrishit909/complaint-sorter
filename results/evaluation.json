@@ -1,0 +1,32 @@
+{
+  "test_complaints": 480,
+  "llm": {
+    "accuracy": 0.88125,
+    "macro_f1": 0.8838431707002977
+  },
+  "baseline": {
+    "accuracy": 0.8541666666666666,
+    "macro_f1": 0.8576731041142579
+  },
+  "paired": {
+    "llm_right_baseline_wrong": 32,
+    "baseline_right_llm_wrong": 19,
+    "mcnemar_exact_p": 0.09191454981585423
+  },
+  "both_agree": {
+    "share": 0.8791666666666667,
+    "accuracy_when_agree": 0.9265402843601895,
+    "accuracy_when_disagree_llm": 0.5517241379310345,
+    "accuracy_when_disagree_base": 0.3275862068965517
+  },
+  "crash_or_fire": {
+    "owner_ticked": 30,
+    "llm_said": 33,
+    "agreement": 0.9895833333333334,
+    "llm_yes_owner_no": 4,
+    "llm_no_owner_yes": 1
+  },
+  "llm_cost_usd": 0.42898425,
+  "llm_cost_per_1000": 0.8937171875000001,
+  "llm_median_seconds": 1.31
+}
