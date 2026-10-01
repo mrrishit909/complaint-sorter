@@ -1,0 +1,58 @@
+odi,category,llm_category,base,verdict,reason
+11708141,EXTERIOR LIGHTING,ELECTRICAL SYSTEM,ENGINE,no_info,text is a FOIA redaction notice
+11708662,STRUCTURE,VISIBILITY,VISIBILITY,both,exploding sunroof glass; owners file it under either
+11710290,FORWARD COLLISION AVOIDANCE,ELECTRICAL SYSTEM,FORWARD COLLISION AVOIDANCE,label,"random stops tied to a software TSB: the emergency-braking system, not wiring"
+11712270,FUEL/PROPULSION SYSTEM,POWER TRAIN,POWER TRAIN,both,lag on the gas then a jump into gear: fuel/propulsion or transmission
+11712295,STRUCTURE,AIR BAGS,STRUCTURE,label,"the failure is water leaking in through the body; air bags are the worry, not the fault"
+11714018,POWER TRAIN,ENGINE,ENGINE,llm,oil pressure switch and oil burning are the engine
+11715403,SERVICE BRAKES,POWER TRAIN,POWER TRAIN,both,lurched forward with foot on the brake: brakes or unintended acceleration
+11716165,STRUCTURE,ENGINE,STRUCTURE,both,"sudden acceleration; the owner's label names the damage, the LLM the cause"
+11717090,ENGINE,FUEL/PROPULSION SYSTEM,ENGINE,both,loss of power with check-engine light: engine or fuel/propulsion
+11717632,VISIBILITY,ELECTRICAL SYSTEM,VISIBILITY,both,"backup camera blurred by water: visibility, though cameras are usually filed as electrical"
+11719238,ELECTRICAL SYSTEM,VISIBILITY,VISIBILITY,label,"auto-up power window is an electrical fault, not the glass"
+11721957,ELECTRICAL SYSTEM,VISIBILITY,ELECTRICAL SYSTEM,label,"camera shows no image: electrical, matching how camera faults are filed"
+11722669,STEERING,SUSPENSION,SUSPENSION,llm,lower control arm ball joint is suspension
+11723476,VISIBILITY,STRUCTURE,STRUCTURE,both,loose liftgate hinge cover (structure) shattered the back glass (visibility)
+11723486,FUEL/PROPULSION SYSTEM,ELECTRICAL SYSTEM,ENGINE,label,hybrid system shut down and lost propulsion
+11726459,POWER TRAIN,ENGINE,ENGINE,llm,low oil pressure seized the engine
+11728957,FUEL/PROPULSION SYSTEM,ENGINE,ENGINE,llm,oil disappearing and blue smoke: engine
+11729276,POWER TRAIN,ENGINE,ENGINE,llm,"catalytic converters are part of the engine's exhaust, not the transmission"
+11730920,SERVICE BRAKES,ELECTRICAL SYSTEM,SERVICE BRAKES,both,parking brake stuck because of a wiring fault
+11731512,SERVICE BRAKES,FORWARD COLLISION AVOIDANCE,SERVICE BRAKES,both,'emergency brake activates' could be the parking brake or automatic emergency braking
+11731597,ELECTRICAL SYSTEM,ENGINE,ENGINE,both,stop-start shut the engine off and it would not restart
+11732964,FUEL/PROPULSION SYSTEM,ENGINE,ENGINE,both,"sputtering, flashing check-engine light, limp mode"
+11733615,SUSPENSION,STEERING,STEERING,both,'death wobble': steering linkage or suspension
+11735791,AIR BAGS,ELECTRICAL SYSTEM,ELECTRICAL SYSTEM,no_info,recall part unavailable; component redacted
+11737292,STRUCTURE,VISIBILITY,VISIBILITY,both,"leaking, jammed sunroof"
+11737659,ENGINE,ELECTRICAL SYSTEM,POWER TRAIN,no_info,recall with no remedy; part not named
+11738465,STEERING,POWER TRAIN,POWER TRAIN,llm,mechanic found the power transfer unit and transfer case failed
+11739375,STRUCTURE,VISIBILITY,STRUCTURE,label,"roof glass the owner calls a structural part, not a view problem"
+11740883,STRUCTURE,VISIBILITY,STRUCTURE,label,pinched sunroof drains leaking water: body/structure
+11741710,FUEL/PROPULSION SYSTEM,STRUCTURE,FUEL/PROPULSION SYSTEM,no_info,open recall with no parts; part not named
+11742845,FORWARD COLLISION AVOIDANCE,ELECTRICAL SYSTEM,VISIBILITY,label,ADAS controller fault after windshield work: driver assistance
+11743103,FUEL/PROPULSION SYSTEM,ELECTRICAL SYSTEM,ELECTRICAL SYSTEM,no_info,legal complaint about a recall; part not named
+11743762,SUSPENSION,POWER TRAIN,POWER TRAIN,both,rear differential mount bushing: drivetrain or suspension
+11744006,STRUCTURE,VISIBILITY,VISIBILITY,both,liftgate glass cracked on its own
+11744694,ELECTRICAL SYSTEM,VISIBILITY,STRUCTURE,both,sunroof would not close
+11745994,STEERING,POWER TRAIN,POWER TRAIN,llm,gear shifter came loose and would not go into park
+11746394,SERVICE BRAKES,ELECTRICAL SYSTEM,ELECTRICAL SYSTEM,llm,"car shuts off in gear, blank speedometer: electrical, not the service brakes"
+11746841,SERVICE BRAKES,SUSPENSION,SERVICE BRAKES,both,two problems: a suspension thump and grinding rear brakes
+11747269,ELECTRICAL SYSTEM,ENGINE,ELECTRICAL SYSTEM,both,plug-in hybrid electrical fault with high RPM and a burning smell from the engine
+11747445,SERVICE BRAKES,FORWARD COLLISION AVOIDANCE,ENGINE,llm,brakes activating by themselves is automatic emergency braking
+11747761,SERVICE BRAKES,ENGINE,SERVICE BRAKES,both,surging while braking: engine/throttle or brakes
+11749879,ENGINE,ELECTRICAL SYSTEM,ELECTRICAL SYSTEM,both,stop-start would not restart even with a new battery
+11752219,VISIBILITY,ELECTRICAL SYSTEM,ELECTRICAL SYSTEM,both,"rearview camera recall for moisture; filed as visibility, cameras usually electrical"
+11752343,ENGINE,FUEL/PROPULSION SYSTEM,ENGINE,both,engine-top fire; mechanic suspects a high-pressure fuel valve
+11753045,FUEL/PROPULSION SYSTEM,ENGINE,ENGINE,both,"PCV valve recall and fumes: engine part, fuel-system recall"
+11755168,ELECTRICAL SYSTEM,FORWARD COLLISION AVOIDANCE,FORWARD COLLISION AVOIDANCE,llm,Full Self-Driving drove toward a closed rail crossing: driver assistance
+11755543,FORWARD COLLISION AVOIDANCE,ELECTRICAL SYSTEM,FORWARD COLLISION AVOIDANCE,label,road-sign-assist warning disabling the safety features: driver assistance
+11756210,AIR BAGS,ELECTRICAL SYSTEM,ELECTRICAL SYSTEM,no_info,recall paperwork for a converted van; part not named
+11761087,SUSPENSION,SERVICE BRAKES,SUSPENSION,both,two problems: worn rear brakes and worn shocks
+11761202,EXTERIOR LIGHTING,ELECTRICAL SYSTEM,EXTERIOR LIGHTING,label,turn-signal lever: exterior lighting
+11762567,FORWARD COLLISION AVOIDANCE,SERVICE BRAKES,SERVICE BRAKES,llm,a flashing brake warning light points to the brakes
+11763843,ELECTRICAL SYSTEM,STRUCTURE,STRUCTURE,both,power sliding doors not latching
+11765120,VISIBILITY,STRUCTURE,VISIBILITY,label,"sunroof glass shattering: visibility, as the prompt itself says"
+11765644,FUEL/PROPULSION SYSTEM,ELECTRICAL SYSTEM,ELECTRICAL SYSTEM,both,high-voltage battery recall reduced power: electrical or propulsion
+11765835,FUEL/PROPULSION SYSTEM,ELECTRICAL SYSTEM,POWER TRAIN,no_info,'not performing' since a recall; nothing more
+11766472,VISIBILITY,ELECTRICAL SYSTEM,ELECTRICAL SYSTEM,both,software pop-up covering the display
+11766595,FORWARD COLLISION AVOIDANCE,ELECTRICAL SYSTEM,ELECTRICAL SYSTEM,both,Full Self-Driving pop-up distraction

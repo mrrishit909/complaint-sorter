@@ -1,0 +1,12 @@
+{
+  "disagreements": 57,
+  "verdicts": {
+    "both": 28,
+    "label": 11,
+    "llm": 11,
+    "no_info": 7
+  },
+  "accuracy_vs_owner_labels": 0.88125,
+  "accuracy_if_llm_and_both_count": 0.9625,
+  "clear_llm_mistakes": 11
+}
